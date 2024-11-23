@@ -1,3 +1,4 @@
+--Data Definition Language commands
 --to see the available databases
 show databases;
 --to create database
