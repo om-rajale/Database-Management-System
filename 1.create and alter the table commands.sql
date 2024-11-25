@@ -11,7 +11,7 @@ create table student( roll_no int(3), Name varchar(20), City varchar(20));
 --to describe  the schema of table
 describe student;
 --updating table
---for adding constraints
+--for adding new column
 alter table student add age int(3);
 --updating values
 alter table student modify Name varchar(25);
