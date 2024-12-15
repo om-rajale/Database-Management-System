@@ -4,7 +4,7 @@ insert into company values(112 , 'Microsoft', 500000),
     -> (113, 'Intel',900000),
     -> (114, 'Google',950000),
     -> (114, 'Google',850000),
-    -> (113, 'Intel',600000),
+    -> (113, 'Intel',600000), 
     -> (113, 'Intel',370000),
     -> (112, 'Microsoft',950000);
 select company_name, sum(salary) from group by company_name;
