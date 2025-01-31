@@ -1,6 +1,6 @@
 --primary key is like unique but always not null
 --FOREIGN KEY
--- to use foreign key we need to create two table
+-- to use foreign key we need to create two table    
 --1.PARENT TABLE
 create table dept( d_no int(3) , d_name varchar(25);
 --2.CHILD TABLE
