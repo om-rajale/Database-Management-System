@@ -3,7 +3,7 @@
 show databases;
 --to create database
 create database CSE;
---using the created database
+--using the created database.  
 use CSE;
 -- now it will uses database cse and perform operations in it
 --creating table and giving name of columns with datatype (schema)
