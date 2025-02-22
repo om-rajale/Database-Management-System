@@ -1,7 +1,7 @@
 --1. Groups rows with the same values in specified columns into summary rows (e.g., calculating aggregate values like sums or averages).
 create table companty( company_id int(3) , company_name varchar(25), salary int(6));
 insert into company values(112 , 'Microsoft', 500000),
-    -> (113, 'Intel',900000),
+    -> (113, 'Intel',900000),      
     -> (114, 'Google',950000),
     -> (114, 'Google',850000),
     -> (113, 'Intel',600000), 
